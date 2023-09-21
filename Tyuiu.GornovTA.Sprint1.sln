@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.33927.289
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{314E7CF4-CAB9-4DA6-9BEF-CEFF42DAB323}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GornovTA.Sprint1.Task0.V0", "Tyuiu.GornovTA.Sprint1.Task0.V0\Tyuiu.GornovTA.Sprint1.Task0.V0.csproj", "{CBC6B2C8-6EDB-4CEB-97E9-B835279E700F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GornovTA.Sprint1.Task0.V8", "Tyuiu.GornovTA.Sprint1.Task0.V0\Tyuiu.GornovTA.Sprint1.Task0.V8.csproj", "{CBC6B2C8-6EDB-4CEB-97E9-B835279E700F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GornovTA.Sprint1.Task0.V0.Lib", "Tyuiu.GornovTA.Sprint1.Task0.V0.Lib\Tyuiu.GornovTA.Sprint1.Task0.V0.Lib.csproj", "{524F39DF-7832-42A2-82FC-1F7203357FC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GornovTA.Sprint1.Task0.V8.Lib", "Tyuiu.GornovTA.Sprint1.Task0.V0.Lib\Tyuiu.GornovTA.Sprint1.Task0.V8.Lib.csproj", "{524F39DF-7832-42A2-82FC-1F7203357FC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GornovTA.Sprint1.Task0.V0.Test", "Tyuiu.GornovTA.Sprint1.Task0.V0.Test\Tyuiu.GornovTA.Sprint1.Task0.V0.Test.csproj", "{91AEE3E4-AAA6-480F-9791-6545B74EB8AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GornovTA.Sprint1.Task0.V8.Test", "Tyuiu.GornovTA.Sprint1.Task0.V0.Test\Tyuiu.GornovTA.Sprint1.Task0.V8.Test.csproj", "{91AEE3E4-AAA6-480F-9791-6545B74EB8AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
