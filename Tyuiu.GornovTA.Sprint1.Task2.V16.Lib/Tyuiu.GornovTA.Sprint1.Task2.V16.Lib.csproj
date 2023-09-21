@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{73524EBF-2DD3-4D89-B688-3F3555C7AD30}</ProjectGuid>
+    <ProjectGuid>{8C27F706-51B8-48C9-A60F-6A7544C6C3A6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Tyuiu.GornovTA.Sprint1.Task2.V16.Lib</RootNamespace>
