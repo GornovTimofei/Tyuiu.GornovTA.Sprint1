@@ -12,6 +12,7 @@ namespace Tyuiu.GornovTA.Sprint1.Task3.V19
     {
         static void Main(string[] args)
         {
+            DataService ds = new DataService();
             Console.Title = "Спринт №1 | Выполнил: Горнов Т. А. | АСОиУб-23-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт №1                                                               *");
@@ -43,7 +44,7 @@ namespace Tyuiu.GornovTA.Sprint1.Task3.V19
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            bool ElephCanMove = DataService.ElephCanMove(x1, y1, x2, y2);
+            bool ElephCanMove = ds.ElephCanMove(x1, y1, x2, y2);
             Console.WriteLine(ElephCanMove ? "True" : "False");
 
             Console.ReadLine();

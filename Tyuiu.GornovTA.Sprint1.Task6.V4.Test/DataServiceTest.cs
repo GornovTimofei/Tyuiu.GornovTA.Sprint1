@@ -11,9 +11,11 @@ namespace Tyuiu.GornovTA.Sprint1.Task6.V4.Test
         [TestMethod]
         public void ValidExpression()
         {
-            string word = "оловянный";
-            bool result = DataService.CheckDoubleN(word);
-            Assert.IsTrue(result);
+            DataService ds = new DataService();
+            string word = "Слова с удвоенной н";
+            string result = ds.CheckDoubleN(word);
+            string wait = "удвоенной";
+            Assert.AreEqual(result, wait);
         }
     }
 }

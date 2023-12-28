@@ -12,7 +12,7 @@ namespace Tyuiu.GornovTA.Sprint1.Task4.V7.Lib
     {
         public double Calculate(double x, double y)
         {
-            var res = Math.Round(((1 + Math.Sqrt(x * y)) / Math.Pow((x - 3 * y), 2)),3);
+            var res = Math.Round(((1 + Math.Sqrt(x * y)) / Math.Pow((x - 3 * y), 2)), 3);
             return res;
         }
     }

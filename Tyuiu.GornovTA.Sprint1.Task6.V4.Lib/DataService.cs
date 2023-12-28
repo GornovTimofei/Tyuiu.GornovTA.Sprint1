@@ -8,18 +8,24 @@ using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.GornovTA.Sprint1.Task6.V4.Lib
 {
-    public class DataService
+    public class DataService : ISprint1Task6V4
     {
-        public static bool CheckDoubleN(string value)
+        public string CheckDoubleN(string value)
         {
-            for (int i = 0; i < value.Length - 1; i++)
+            string[] words = value.Split(new char[] { ' ', ',', '.', '!', '?' }, StringSplitOptions.RemoveEmptyEntries);
+            string result = "";
+            foreach (string word in words)
             {
-                if (value[i] == 'н' && value[i + 1] == 'н')
+                if (word.Contains("нн"))
                 {
-                    return true;
+                    result += word + " ";
+                }
+                else
+                {
+                    result += "";
                 }
             }
-            return false;
+            return result.Trim();
         }
     }
 }

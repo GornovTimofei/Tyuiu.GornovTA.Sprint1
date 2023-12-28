@@ -11,20 +11,23 @@ namespace Tyuiu.GornovTA.Sprint1.Task3.V19.Test
         [TestMethod]
         public void SlonTrue()
         {
-            int x1 = 2;
-            int y1 = 3;
-            int x2 = 4;
-            int y2 = 5;
-            bool result = DataService.ElephCanMove(x1, y1, x2, y2);
+            DataService ds = new DataService();
+            int x1 = 0;
+            int y1 = 0;
+            int x2 = 1;
+            int y2 = 1;
+            bool result = ds.ElephCanMove(x1, y1, x2, y2);
             Assert.IsTrue(result);
         }
+        [TestMethod]
         public void SlonFalse()
         {
-            int x1 = 1;
-            int y1 = 1;
-            int x2 = 5;
-            int y2 = 5;
-            bool result = DataService.ElephCanMove(x1, y1, x2, y2);
+            DataService ds = new DataService();
+            int x1 = 0;
+            int y1 = 0;
+            int x2 = 0;
+            int y2 = 1;
+            bool result = ds.ElephCanMove(x1, y1, x2, y2);
             Assert.IsFalse(result);
         }
     }

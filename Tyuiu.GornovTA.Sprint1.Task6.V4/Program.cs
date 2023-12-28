@@ -12,6 +12,7 @@ namespace Tyuiu.GornovTA.Sprint1.Task6.V4
     {
         static void Main()
         {
+            DataService ds = new DataService();
             Console.Title = "Спринт №1 | Выполнил: Горнов Т. А. | АСОиУб-23-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт №1                                                               *");
@@ -30,33 +31,13 @@ namespace Tyuiu.GornovTA.Sprint1.Task6.V4
 
             Console.Write("Введите текст: ");
             string inputtext = Console.ReadLine();
-
-            string[] text = inputtext.Split(new char[] { ' ', '.', ',', '!', '?' }, StringSplitOptions.RemoveEmptyEntries);
-
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Слова с удвоенной н: ");
-            foreach (string word in text)
-            {
-                if (CheckDoubleN(word))
-                {
-                    Console.WriteLine(word);
-                }
-            }
+            Console.WriteLine(ds.CheckDoubleN(inputtext));
             Console.ReadLine();
-        }
-        public static bool CheckDoubleN(string value)
-        {
-            for (int i = 0; i < value.Length - 1; i++)
-            {
-                if (value[i] == 'н' && value[i + 1] == 'н')
-                {
-                    return true;
-                }
-            }
-            return false;
         }
     }
 }
